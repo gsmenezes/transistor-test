@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import GlobalStyles from "./Styles/GlobalStyles";
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <GlobalStyles />
       <Header />
+      <Footer />
     </>
   );
 }
