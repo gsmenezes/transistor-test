@@ -4,8 +4,7 @@ import Logo from '../../assets/logo.png';
 
 import { Container } from "./styles";
 
-const Header: React.FC = () => {
-  return (
+const Header: React.FC = () => (
     <>
       <Container>
         <img src={Logo} alt="Logo" />
@@ -13,6 +12,5 @@ const Header: React.FC = () => {
       </Container>
     </>
   );
-};
 
 export default Header;
