@@ -152,6 +152,13 @@ transform: rotate(60deg) matrix(0.59,0,0,1,113,45);
     }
 
 }
+
+@media(min-width: 1900px){
+    top: 11%;
+    left: 34%;
+    width: 31%;
+
+}
 `;
 
 export const ButtonToCarousel = styled.div `
@@ -175,6 +182,15 @@ button{
     border-radius: 30%;
     width: 22px;
 }
+}
+
+@media(min-width: 1900px){
+    margin: 3px 50%;
+
+    button{
+       width: 35px;
+    }
+
 }
 `;
 

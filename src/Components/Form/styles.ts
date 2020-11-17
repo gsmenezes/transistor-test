@@ -48,6 +48,10 @@ margin-top: 5%;
         width: 100%;
     }
 }
+
+@media(min-width: 1900px){
+    padding: 3% 6%;
+}
 `;
 
 export const TitleForm = styled.h1`
@@ -90,6 +94,10 @@ position: relative;
 @media(max-width: 768px){
     padding: 6% 4%;
 }
+
+@media(min-width: 1900px){
+    padding: 3% 6%;
+}
 `;
 
 export const FormInfo = styled.div `
@@ -101,6 +109,10 @@ column-gap: 9%;
 @media(max-width: 768px){
     display: inline;
     column-gap: 0%;
+}
+
+@media(min-width: 1900px){
+column-gap: 6%;
 }
 `;
 
@@ -151,6 +163,23 @@ label {
     }
 }
 
+
+@media(min-width: 1900px){
+
+    input{
+    width: 420px;
+    }
+
+    label{
+    left: 6%;
+    top: 1%;
+    }
+
+    .error{
+margin-top: -5%;
+    }
+}
+
 `;
 
 export const FormInfoEmail = styled.div `
@@ -198,6 +227,22 @@ label {
 
     .error{
         margin-top: -7%;
+    }
+}
+
+@media(min-width: 1900px){
+
+input{
+    width: 420px;
+}
+
+label{
+    left: 53%;
+    top: 1%;
+    }
+
+    .error{
+        margin-top: -5%;
     }
 }
 `;

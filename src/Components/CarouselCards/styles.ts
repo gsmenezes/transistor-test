@@ -22,6 +22,10 @@ svg{
         display: none;
     }
 }
+
+@media(min-width: 1900px){
+    margin: 10% auto 10%;
+}
 `;
 
 export const Cards = styled.div `
