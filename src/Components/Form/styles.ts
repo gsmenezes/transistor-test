@@ -9,7 +9,7 @@ position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 8% 0;
+margin: 0 0 8%;
 `;
 
 export const ContainerForm = styled.div `

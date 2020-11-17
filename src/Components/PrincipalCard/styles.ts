@@ -138,12 +138,13 @@ transform: rotate(60deg) matrix(0.59,0,0,1,113,45);
     }
 
     .plume3{
+    width: 190px;
     margin: -113px 7px;
-    transform: matrix(-0.78,-0.63,0.63,-0.78,-10,-13) rotate(100deg);
+    transform: matrix(-0.78,-0.63,0.63,-0.78,-28,-13) rotate(100deg);
     }
 
     .plume4{
-    transform: rotate(60deg) matrix(0.59,0,0,1,-31,-23);
+    transform: rotate(60deg) matrix(0.59,0,0,1,-68,21);
     object-fit: contain;
     object-position: bottom;
     margin: 0px -86px;
