@@ -70,38 +70,38 @@ p.phrase{
 
 .plume{
 width: 130px;
-height: 119px;
-transform: matrix(1.96,0.28,-0.28,0.96,-25,-69) rotate(-8deg);
+height: 132px;
+transform: matrix(0.96,0.28,-0.28,0.96,-40,20) rotate(-23deg);
 opacity: 1;
 display: flex;
 position: relative;
 }
 
 .plume2{
-width: 96px;
+width: 119px;
 height: 100px;
-transform: rotate(51deg) matrix(0.55,-0.88,0.88,0.47,-52,93);
+transform: rotate(55deg) matrix(0.55,-0.88,0.88,0.47,38,217);
 opacity: 1;
 display: flex;
 position: relative;
 }
 
 .plume3{
-width: 157px;
+width: 234px;
 height: 155px;
-transform: matrix(-0.78,-0.63,0.63,-0.78,-10,-13) rotate(100deg);
+transform: matrix(-0.78,-0.63,0.63,-0.78,145,-44) rotate(100deg);
 opacity: 1;
 display: flex;
 position: relative;
 }
 
 .plume4{
-width: 181px;
+width: 145px;
 height: 155px;
 opacity: 1;
 display: flex;
 position: relative;
-transform: rotate(60deg) matrix(0.59,0,0,1,-31,-23);
+transform: rotate(60deg) matrix(0.59,0,0,1,113,45);
 }
 
 @media(max-width: 768px){
@@ -155,11 +155,11 @@ transform: rotate(60deg) matrix(0.59,0,0,1,-31,-23);
 
 export const ButtonToCarousel = styled.div `
 display: inline-flex;
-margin: 0 47% 0;
+margin: 0 50%;
 
 button{
-    border-radius: 30%;
-    width: 22px;
+    border-radius: 40%;
+    width: 25px;
     text-align: center;
     vertical-align: middle;
     padding: 3px 0px 0px;
@@ -168,15 +168,11 @@ button{
 
 @media(max-width: 768px){
 display: inline-flex;
-margin: 0 47% 0;
+margin: 0 47%;
 
 button{
     border-radius: 30%;
     width: 22px;
-    text-align: center;
-    vertical-align: middle;
-    padding: 3px 0px 0px;
-    background-color: #FFFFFF;
 }
 }
 `;
