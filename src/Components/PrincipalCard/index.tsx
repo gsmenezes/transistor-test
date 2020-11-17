@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useCallback } from "react";
+
+import {VscChevronDown } from "react-icons/vsc";
 
 import Background from "../../assets/background-card2.png";
 import RedCard from "../../assets/image-card.png";
@@ -10,6 +12,9 @@ import Plume4 from "../../assets/plume4.png";
 import { Container, Card, ButtonToCarousel } from "./styles";
 
 const PrincipalCard: React.FC = () => {
+  const handleToDown = useCallback(() => {
+    window.scrollTo(1000,1000);
+  }, []);
   return (
     <Container>
       <img src={Background} alt="Background do Card principal" />
@@ -28,7 +33,7 @@ const PrincipalCard: React.FC = () => {
         </p>
       </Card>
       <ButtonToCarousel>
-        <button></button>
+        <button onClick={handleToDown}><VscChevronDown size={15}/></button>
       </ButtonToCarousel>
     </Container>
   );

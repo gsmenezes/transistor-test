@@ -5,7 +5,7 @@ import { Container, Button } from "./styles";
 
 const Footer: React.FC = () => {
   const handleToTop = useCallback(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo({top: 0, behavior: 'smooth'});
   }, []);
   return (
     <Container>

@@ -30,7 +30,7 @@ h1{
     margin: 40px 0 0;
 }
 
-@media(max-width: 600px){
+@media(max-width: 768px){
    width: 50%;
 
 img {

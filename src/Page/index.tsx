@@ -1,6 +1,8 @@
 import React from 'react';
+import CarouselCards from '../Components/CarouselCards';
 
 import Footer from '../Components/Footer';
+import ContactForm from '../Components/Form';
 import Header from '../Components/Header';
 import PrincipalCard from '../Components/PrincipalCard';
 
@@ -11,6 +13,8 @@ const Home: React.FC = () => {
         <Container>
             <Header />
             <PrincipalCard />
+            <CarouselCards />
+            <ContactForm />
             <Footer />
         </Container>
     );

@@ -7,6 +7,10 @@ width: 100%;
 height: 410px;
 background: #363636 0% 0% no-repeat padding-box;
 opacity: 1;
+
+@media(max-width: 768px){
+    height: 280px;
+}
 `;
 
 export const Button = styled.div `
@@ -24,8 +28,8 @@ text-align: center;
 padding: 7px;
 }
 
-@media(max-width: 600px){
-
+@media(max-width: 768px){
+margin-top: 18%;
 margin-right: 10%;
 
 button {
