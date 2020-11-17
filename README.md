@@ -1,7 +1,6 @@
-# SOROCABACOM Test :notes:
+# SOROCABACOM Test - Transistor | SUPERGIANTGAMES
 
 This application was developed in response to the test for the Frontend developer position at SOROCABACOM.
-
 
 ## Running
 
