@@ -1,6 +1,6 @@
 # SOROCABACOM Test - Transistor | SUPERGIANTGAMES
 
-![alt text](src\assets\tela.png "Parte do layout")
+![alt text](\assets\tela.png "Parte do layout")
 
 This application was developed in response to the test for the Frontend developer position at SOROCABACOM.
 
