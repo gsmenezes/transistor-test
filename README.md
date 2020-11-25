@@ -1,7 +1,5 @@
 # SOROCABACOM Test - Transistor | SUPERGIANTGAMES
 
-![alt text](\assets\tela.png "Parte do layout")
-
 This application was developed in response to the test for the Frontend developer position at SOROCABACOM.
 
 ## Running
@@ -21,6 +19,7 @@ For structures was used:
 :small_blue_diamond: **StyledComponents**
 :small_blue_diamond: **React-icons**
 :small_blue_diamond: **React Hooks**
+:small_blue_diamond: **React Elastic Carousel**
 
 ## Folder Structure
 
@@ -43,6 +42,7 @@ src
   | └ sybil.svg
   ├ Components
   | ├ CarouselCards
+  | |   ├ carousel.css
   | |   ├ index.tsx
   | |   └ styles.ts
   | ├ Footer
