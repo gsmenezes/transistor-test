@@ -1,0 +1,17 @@
+
+.rec-arrow-left, .rec-arrow-right {
+    background: #7DEDE2 !important;
+
+}
+
+.rec-carousel-wrapper{
+    width: 88% !important;
+}
+
+@media(max-width: 768px){
+    .rec-carousel-wrapper{
+        width: 100% !important;
+    }
+}
+
+
